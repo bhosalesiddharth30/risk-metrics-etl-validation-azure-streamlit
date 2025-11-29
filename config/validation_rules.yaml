@@ -1,0 +1,28 @@
+# Validation rules for risk metrics
+
+columns:
+  required:
+    - date
+    - portfolio
+    - metric
+    - value
+
+metrics:
+  P50:
+    min_value: 0
+    max_null_fraction: 0.05
+  P95:
+    min_value: 0
+    max_null_fraction: 0.05
+  SPREAD:
+    max_null_fraction: 0.10
+  DELTA:
+    max_null_fraction: 0.10
+  VOL:
+    min_value: 0
+    max_null_fraction: 0.10
+
+flags:
+  # thresholds for overall GREEN / YELLOW / RED
+  green_max_null_fraction: 0.02   # <= 2% nulls -> GREEN
+  yellow_max_null_fraction: 0.08  # <= 8% nulls -> YELLOW, else RED

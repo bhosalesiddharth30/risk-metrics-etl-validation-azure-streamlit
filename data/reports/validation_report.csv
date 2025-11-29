@@ -1,0 +1,6 @@
+metric,null_fraction,nulls_ok,min_value_ok,row_count,overall_null_fraction,overall_flag
+P50,0.037,True,True,270,0.0356,YELLOW
+P95,0.0333,True,True,270,0.0356,YELLOW
+SPREAD,0.0296,True,True,270,0.0356,YELLOW
+DELTA,0.0296,True,True,270,0.0356,YELLOW
+VOL,0.0481,True,True,270,0.0356,YELLOW

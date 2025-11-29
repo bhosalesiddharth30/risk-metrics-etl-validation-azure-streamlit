@@ -1,0 +1,5 @@
+2025-11-29 22:37:19.985 | INFO     | __main__:main:23 - Starting simulated Azure ingest function
+2025-11-29 22:37:19.987 | INFO     | __main__:main:29 - Copied D:\Projects\azure-risk-metrics-etl-monitoring\data\sample_risk_data.csv -> D:\Projects\azure-risk-metrics-etl-monitoring\data\raw\risk_snapshot_latest.csv
+2025-11-29 22:37:45.546 | INFO     | etl.risk_etl_cleaner:run_etl:21 - Running ETL on D:\Projects\azure-risk-metrics-etl-monitoring\data\raw\risk_snapshot_latest.csv
+2025-11-29 22:37:45.575 | INFO     | etl.risk_etl_cleaner:run_etl:35 - Saved cleaned data to D:\Projects\azure-risk-metrics-etl-monitoring\data\processed\risk_snapshot_clean.csv
+2025-11-29 22:37:45.592 | INFO     | __main__:validate:76 - Validation finished: overall_flag=YELLOW, null_fraction_total=0.0356
