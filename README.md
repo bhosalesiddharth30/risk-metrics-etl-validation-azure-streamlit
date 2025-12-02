@@ -1,6 +1,6 @@
 # Risk Metrics ETL & Validation Pipeline (Azure + Streamlit)
 
-A fully functional data engineering pipeline for **risk metric ingestion, ETL processing, validation, and dashboard monitoring**, inspired by real workflows used in **energy trading**, **quant risk**, and **DevOps pipelines** at companies like **E.ON Energy Markets GmbH**.
+A fully functional data engineering pipeline for **risk metric ingestion, ETL processing, validation, and dashboard monitoring**, inspired by real workflows used in **energy trading**, **quant risk**, and **DevOps pipelines**.
 
 This project simulates an **Azure Function–based ingestion system**, applies **ETL cleaning**, runs a **rule-based validation engine**, and displays results through an interactive **Streamlit dashboard**.
 
